@@ -1,0 +1,7 @@
+#Paso parametro luego del projects/<id>
+PATCH http://localhost:8000/api/projects/1/
+Content-Type: application/json
+
+{
+    "description": "Mega short description"
+}
